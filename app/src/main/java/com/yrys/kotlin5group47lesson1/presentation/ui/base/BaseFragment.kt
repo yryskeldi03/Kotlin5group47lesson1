@@ -24,6 +24,7 @@ abstract class BaseFragment<VB : ViewBinding, VM : ViewModel>(
         initialize()
 
         setupRequests()
+
         setupSubscribers()
         setupListeners()
     }
