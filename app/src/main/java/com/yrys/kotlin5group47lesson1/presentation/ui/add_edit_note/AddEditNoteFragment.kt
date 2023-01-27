@@ -18,7 +18,12 @@ class AddEditNoteFragment :
     private val j = 1
     private val a = 20
     override val binding by viewBinding(FragmentAddEditNoteBinding::bind)
+    // jdkfjdk
+    private val b = 1
     override val viewModel by viewModels<AddEditNoteViewModel>()
+    private val y = 3
+    override val binding by viewBinding(FragmentAddEditNoteBinding::bind)
+    private val a = 0
     private var note: Note? = null
 
     override fun initialize() {
