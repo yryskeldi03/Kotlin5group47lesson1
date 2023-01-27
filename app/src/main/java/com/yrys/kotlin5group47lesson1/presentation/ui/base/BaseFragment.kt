@@ -22,6 +22,7 @@ abstract class BaseFragment<VB : ViewBinding, VM : ViewModel>(
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         initialize()
+
         setupRequests()
         setupSubscribers()
         setupListeners()
