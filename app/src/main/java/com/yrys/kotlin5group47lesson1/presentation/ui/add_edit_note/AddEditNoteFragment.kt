@@ -16,8 +16,6 @@ class AddEditNoteFragment :
     BaseFragment<FragmentAddEditNoteBinding, AddEditNoteViewModel>(R.layout.fragment_add_edit_note) {
 
     private val j = 1
-    private val a = 20
-    override val binding by viewBinding(FragmentAddEditNoteBinding::bind)
     // jdkfjdk
     private val b = 1
     override val viewModel by viewModels<AddEditNoteViewModel>()
