@@ -15,8 +15,8 @@ import dagger.hilt.android.AndroidEntryPoint
 class AddEditNoteFragment :
     BaseFragment<FragmentAddEditNoteBinding, AddEditNoteViewModel>(R.layout.fragment_add_edit_note) {
 
-    private val b = 1
-    private val a = 0
+    private val j = 1
+    private val a = 20
     override val binding by viewBinding(FragmentAddEditNoteBinding::bind)
     override val viewModel by viewModels<AddEditNoteViewModel>()
     private var note: Note? = null
